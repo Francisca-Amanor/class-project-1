@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.container{
+  max-width: 1320px;
+}
+
+section{
+  overflow: hidden;
+}
+
+.section-bg{
+  background: #ced2d8;
+  
+}
+
+.section-header h3{
+  font-size: 36px;
+  color: rgb(216, 15, 15);
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.section-header p{
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: rgb(131, 14, 226);
+  width: 50%;
+}
+
+#services{
+  padding: 60px 0 40px 0;
+}
+
+#services .box{
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px 10px 40px 10px;
+  background:  rgb(145, 100, 107);
+  box-shadow: 0 10px 29px 0  rgb(185, 53, 53);
+  transition: all 0.3ms ease-in-out;
+  text-align: center;
+}
